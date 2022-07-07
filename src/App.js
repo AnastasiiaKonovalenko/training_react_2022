@@ -6,8 +6,12 @@ import ProductCard from "./pages/product_page/ProductCard";
 import ShippingPage from "./pages/product_page/shipping_page/Page";
 import PaymentPage from "./pages/product_page/payment_page/Page";
 import ThanksPage from "./pages/thanks_page/Page";
+import { useEffect } from "react";
 
 function App() {
+    useEffect(() => {
+        console.log('App was loaded...')
+    }, [])
     return (
         //TODO: Router here
         <div className="App">
