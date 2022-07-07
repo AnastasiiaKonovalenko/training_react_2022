@@ -15,7 +15,7 @@ function App() {
     return (
         //TODO: Router here
         <div className="App">
-            <Router basename={process.env.PUBLIC_URL}>
+            <Router>
                 <Routes>
                     <Route path="/" element={ <MainPage /> }/>
                     <Route path="/product" element={ <ProductPage /> }>
