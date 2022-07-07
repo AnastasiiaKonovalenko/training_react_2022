@@ -1,5 +1,5 @@
 import React from "react";
-import { Route, Router, Routes } from "react-router-dom";
+import { HashRouter as Router, Route, Routes } from "react-router-dom";
 import MainPage from "./pages/main_page/MainPage";
 import ProductPage from "./pages/product_page/Page";
 import ProductCard from "./pages/product_page/ProductCard";
