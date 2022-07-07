@@ -1,0 +1,32 @@
+.app-card {
+  &__title {
+    padding-left: 10px;
+    margin-bottom: 24px;
+    color: var(--success-color);
+    text-transform: uppercase;
+  }
+
+  &__item {
+    position: relative;
+    padding-left: 10px;
+    font-size: 16px;
+    line-height: 19px;
+    color: var(--primary-font-color);
+    margin-bottom: 12px;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+
+    &:before {
+      content: '';
+      width: 4px;
+      height: 4px;
+      border-radius: 50px;
+      background-color: var(--primary-font-color);
+      position: absolute;
+      left: 0;
+      top: calc(50% - 2px);
+    }
+  }
+}

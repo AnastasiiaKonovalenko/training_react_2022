@@ -1,0 +1,14 @@
+.app-input {
+  display: flex;
+  height: 48px;
+  width: 100%;
+  border: 1px solid var(--border-primary-color);
+  box-sizing: border-box;
+
+  &__text-field {
+    padding: 16px 30px;
+    flex-grow: 1;
+    border: none;
+    outline: none;
+  }
+}

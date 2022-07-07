@@ -1,0 +1,13 @@
+.footer {
+  padding-bottom: 100px;
+
+  &__links {
+    margin: 65px 0 36px 0;
+  }
+
+  &__rights {
+    font-size: 14px;
+    line-height: 21px;
+    color: var(--color-btn-secondary-inactive);
+  }
+}

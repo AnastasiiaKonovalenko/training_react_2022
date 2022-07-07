@@ -1,0 +1,26 @@
+.designed-block {
+  margin-top: 150px;
+
+  &__header {
+    position: relative;
+    background: url("../../../assets/pen.png");
+    object-fit: contain;
+    width: 582px;
+    height: 388px;
+  }
+
+  &__heading {
+    position: absolute;
+    width: 480px;
+    top: 0;
+    left: 510px;
+  }
+
+  &__text {
+    margin-top: 194px;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--secondary-font-text);
+    max-width: 378px;
+  }
+}

@@ -1,0 +1,80 @@
+.technology {
+  margin-top: 150px;
+
+  &__subheading {
+    width: 964px;
+  }
+
+  &__img {
+    &-wrap {
+      position: relative;
+      transform: rotate(-7.85deg);
+    }
+    & div img {
+      width: 964px;
+      object-fit: contain;
+    }
+  }
+
+  &__btn {
+    position: absolute!important;
+    transform: rotate(7.85deg)!important;
+  }
+
+  &__citate {
+    margin-top: 3rem;
+  }
+}
+
+.line {
+  opacity: 1;
+  display: flex;
+  align-items: end;
+  width: 1px;
+  position: absolute;
+  top: 65px;
+  right: 50%;
+  border-right: 1px solid var(--primary-font-color);
+  transition: height 200ms;
+
+  &-hide {
+    transition: height 200ms;
+    height: 0!important;
+  }
+
+  &__text {
+    overflow: hidden;
+    font-size: 14px;
+    line-height: 21px;
+    color: var(--primary-font-color);
+    text-align: start;
+    position: absolute;
+    min-height: 10px;
+    width: 150px;
+    min-width: 0;
+    right: 0;
+    padding: 0 8px 8px 0;
+    opacity: 1;
+    transition: width, opacity 200ms;
+    transition-delay: 200ms;
+
+    &-hide {
+      opacity: 0;
+      overflow: hidden;
+      width: 0!important;
+      min-width: 0!important;
+      transition: width, opacity 200ms;
+      transition-delay: 200ms;
+    }
+
+    &:after {
+      position: absolute;
+      content: '';
+      width: 160px;
+      height: 1px;
+      background-color: var(--primary-font-color);
+      right: -1px;
+      bottom: 0;
+    }
+  }
+}

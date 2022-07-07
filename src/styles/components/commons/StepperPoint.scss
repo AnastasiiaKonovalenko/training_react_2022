@@ -1,0 +1,22 @@
+.stepper-item {
+  position: absolute;
+
+  &:nth-child(2) {
+    right: 46%;
+  }
+
+  &:last-child {
+    right: 0;
+  }
+
+  &__title {
+    position: absolute;
+    bottom: -30px;
+  }
+}
+
+.marker-icon {
+  background-color: transparent;
+  width: 16px;
+  height: 16px;
+}

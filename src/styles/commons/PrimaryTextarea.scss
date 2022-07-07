@@ -1,0 +1,14 @@
+.app-textarea {
+  display: flex;
+  min-height: 128px;
+  width: 100%;
+  border: 1px solid var(--border-primary-color);
+  box-sizing: border-box;
+
+  &__textarea {
+    padding: 16px 30px;
+    flex-grow: 1;
+    border: none;
+    outline: none;
+  }
+}

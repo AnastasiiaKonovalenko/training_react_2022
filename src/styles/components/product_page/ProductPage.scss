@@ -1,0 +1,16 @@
+.product-card {
+  margin-bottom: 150px;
+  margin-top: 90px;
+
+  &__photo {
+    margin-left: 34px;
+  }
+
+  &__img {
+    transform: rotateY(180deg);
+  }
+
+  &__info {
+
+  }
+}

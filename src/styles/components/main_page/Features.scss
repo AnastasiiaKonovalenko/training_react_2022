@@ -1,0 +1,48 @@
+.features {
+  position: relative;
+  padding: 0 0 0 120px;
+  margin-top: 150px;
+
+  &__lists {
+    margin-bottom: 24px;
+  }
+
+  &__card {
+    &:first-child {
+      margin-top: 24px;
+      margin-left: 527px;
+    }
+
+    &:nth-child(2) {
+      margin-bottom: 120px;
+      margin-left: 100px;
+    }
+
+    &:last-child {
+      margin-left: 320px;
+      position: relative;
+      top: 20px;
+    }
+  }
+
+  &__img {
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    height: 700px;
+    width: 1100px;
+    position: absolute;
+    background-color: var(--bg-image-color);
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+
+    & img {
+      width: 786px;
+      height: 509px;
+      object-fit: contain;
+      margin-bottom: 16px;
+    }
+  }
+
+}
